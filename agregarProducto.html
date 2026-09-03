@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Agregar Producto</h1>
+
+                    <form id = "formProducto">
+                        <div class = "campo">
+                            <label for="codigo"></label>
+                            <input 
+                            type="text"
+                            id="codigo"
+                            name="codigo"
+                            placeholder="Ingrese Codigo">
+                            <span id="errorCodigo" class = "error"></span>
+                        </div>
+                        <div class = "campo">
+                            <label for="nombre">Nombre</label>
+                            <input 
+                            type="text"
+                            id="nombre"
+                            name="nombre"
+                            placeholder="Ingrese nombre">
+                            <span id="errorNombre" class = "error"></span>
+                        </div>
+                        <div class = "campo">
+                            <label for="categoria">Categoria</label>
+                            <select id="categoria" name="categoria">
+                                <option value="">Seleccione una categoria</option>
+                                <option value="Computación">Computación</option>
+                                <option value="Electrónica">Electrónica</option>
+                                <option value="Accesorios">Accesorios</option>
+                            </select>
+                            <span id="errorCategoria" class = "error"></span>
+                        </div>
+
+                        <button type = "submit">
+                            Agregar Producto
+                        </button> 
+                    </form>
+                <div id="mensaje" class="exito"></div>
+            </div>
+            <p>This is the home section.</p>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>This is the about section.</p>
+        </section>
+        <section id="services">
+            <h2>Services</h2>
+            <p>This is the services section.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>This is the contact section.</p>
+        </section>
+</body>
+</html>
